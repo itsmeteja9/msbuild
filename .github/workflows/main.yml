@@ -1,0 +1,7 @@
+jobs:
+  rca:
+    uses: itsmeteja9/Agent-POC/.github/workflows/rca-reusable.yml@main
+    with:
+      tool_repo: itsmeteja9/Agent-POC
+      log_file: logs.txt
+      artifact_name: rca-report
